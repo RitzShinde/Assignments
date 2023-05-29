@@ -147,3 +147,8 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+steps:-
+1.npm install -g @angular/cli@latest
+2.ng new partc
