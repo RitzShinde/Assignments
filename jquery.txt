@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My jQuery Website</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<!-- Home Page -->
+<div data-role="page" id="home">
+    <div data-role="header">
+        <h1>Welcome to My Website</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home" class="ui-btn-active">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <h2>Home Page</h2>
+        <p>Photography Tips:</p>
+        <ul>
+            <li>Use natural lighting for better results.</li>
+            <li>Experiment with different angles and perspectives.</li>
+            <li>Focus on the subject and blur the background for a shallow depth of field.</li>
+            <li>Compose your shot using the rule of thirds.</li>
+            <li>Capture candid moments for more authentic photos.</li>
+        </ul>
+        
+        <h3>Camera Parameters</h3>
+        <ul>
+            <li>Aperture: Adjusts the amount of light entering the camera. A lower f-number (e.g., f/2.8) results in a larger aperture and shallower depth of field.</li>
+            <li>Focal Length: Determines the field of view and magnification of the image. Longer focal lengths provide more zoomed-in views.</li>
+            <li>Lens: Different lenses offer various focal lengths and features, such as wide-angle, telephoto, or macro capabilities.</li>
+            <li>Shutter Speed: Controls the duration of time the camera's sensor is exposed to light. Faster shutter speeds freeze motion, while slower speeds create motion blur.</li>
+            <li>ISO: Adjusts the camera's sensitivity to light. Higher ISO values are suitable for low-light situations but may introduce more noise in the image.</li>
+            <li>White Balance: Corrects the color temperature of the scene to ensure accurate color reproduction.</li>
+        </ul>
+        
+        <h3>Featured Photos</h3>
+        <div class="photo-gallery">
+            <img src="photo1.jpg" alt="Photo 1">
+            <img src="photo2.jpg" alt="Photo 2">
+            <img src="photo3.jpg" alt="Photo 3">
+        </div>
+    </div>
+
+
+   
+
+    <div data-role="footer">
+        <h4>Copy Right 2023 | By Ritesh Shinde, All Rights Reserved</h4>
+    </div>
+</div>
+
+<!-- About Us Page -->
+<div data-role="page" id="about">
+    <div data-role="header">
+        <h1>About Us</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about" class="ui-btn-active">About Us</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <h2>About Us Page</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <div data-role="footer">
+        <h4>Copy Right 2023 | By Ritesh Shinde, All Rights Reserved</h4>
+    </div>
+</div>
+
+<!-- Login Page -->
+<div data-role="page" id="login">
+    <div data-role="header">
+        <h1>Login</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#login" class="ui-btn-active">Login</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <h2>Login Page</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <div data-role="footer">
+        <h4>Copy Right 2023 | By Ritesh Shinde, All Rights Reserved</h4>
+    </div>
+</div>
+
+<!-- Register Page -->
+<div data-role="page" id="register">
+    <div data-role="header">
+        <h1>Register</h1>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#register" class="ui-btn-active">Register</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="content">
+        <h2>Register Page</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+    <div data-role="footer">
+        <h4>Copy Right 2023 | By Ritesh Shinde, All Rights Reserved</h4>
+    </div>
+</div>
+
+</body>
+</html>

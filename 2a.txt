@@ -1,0 +1,9 @@
+1.mkdir Parta 
+2. cd Parta
+3. git init
+4. git add .
+5. git status
+6. git remote add origin "link"
+7. git commit -m "message"
+8. git status
+9. git push -u origin master

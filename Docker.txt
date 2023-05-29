@@ -1,0 +1,20 @@
+Dockerfile
+FROM node:alpine
+COPY . /partb
+CMD node /partb/ritesh.js
+
+
+ritesh.js
+console.log("Name :- Ritesh Shinde");
+console.log("Roll :- 69");
+console.log("Branch :- IT");
+console.log("City :- Nashik");
+
+steps:-
+dont forget to install docker extension
+1.Create Dockerfile and ritesh.js
+2.terminal:- 
+node ritesh.js
+docker build -t partb .
+docker images
+
